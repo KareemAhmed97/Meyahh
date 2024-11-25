@@ -7,10 +7,10 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-[100] shadow-md border border-gray-300 bg-white px-4 flex justify-between items-center">
       {/* Logo Section */}
-      <div className="flex items-center gap-2">
-        <div className=" flex lg:hidden">
+      <div  className="flex items-center gap-2">
+        <label htmlFor="my-drawer" className=" flex lg:hidden">
           <RxHamburgerMenu />
-        </div>
+        </label>
         <div className="w-[40px] h-[60px]">
           <img src={Logo} alt="Logo" className=" w-full h-full object-cover" />
         </div>

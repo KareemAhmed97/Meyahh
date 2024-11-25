@@ -12,7 +12,7 @@ export default function MyRfqs() {
           title={"You will view your RFQs here!"}
           message={"Get your water treatment needs at the best price."}
           name={"Create a RFQ"}
-          path={"create-rfq"}
+          path={""}
         />
       </div>
     </div>

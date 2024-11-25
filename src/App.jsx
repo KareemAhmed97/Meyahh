@@ -17,15 +17,12 @@ function App() {
       children: [
         {
           path: "",
-          element: <Navigate to="/rfqs" />,
-        },
-        {
-          path: "rfqs",
           children: [
             { path: "", element: <MyRfqs /> },
             { path: "create-rfq", element: <CreateRfq /> },
           ],
         },
+
         {
           path: "orders",
           element: <MyOrders />,

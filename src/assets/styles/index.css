@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*:hover {
+  scrollbar-color: auto;
+}
 ::-webkit-scrollbar {
   @apply w-[6px] h-[80px];
 }

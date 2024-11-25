@@ -17,7 +17,7 @@ export default function SiedMenu() {
     {
       name: "My RFQS",
       icon: <RfqsIcon />,
-      path: "/rfqs",
+      path: "",
     },
     {
       name: "My Opportunities",
@@ -42,7 +42,7 @@ export default function SiedMenu() {
   }, [pathname]);
 
   return (
-    <div className="fixed top-18 h-full left-0 w-[250px] bg-grayColor pt-10 pr-5 pl-3 flex flex-col justify-between gap-10 overflow-scroll  ">
+    <div className="fixed top-18 h-full left-0 w-[250px] bg-grayColor pt-10 pr-5 pl-3 flex flex-col justify-between gap-10 overflow-y-scroll  ">
       <div>
         {/* Logo */}
         <div className="p-2 text-center border-b-2 border-secondaryColor flex justify-center items-center">
@@ -73,7 +73,7 @@ export default function SiedMenu() {
         </div>
       </div>
       {/* help */}
-      <div className="bg-white w-full rounded-md p-2 flex flex-col items-center gap-2 pt-8 relative shadow mb-10   group cursor-pointer">
+      <div className="bg-white w-full rounded-md p-2 flex flex-col items-center gap-2 pt-8 relative shadow mb-20   group cursor-pointer">
         <div className="size-11 absolute -top-6 left-1/2 transform -translate-x-1/2 rounded-full flex items-center justify-center border-4 border-grayColor">
           <div className="bg-white size-7 rounded-full overflow-hidden  group-hover:scale-110 duration-300">
             <img src={Robort} alt="" className="w-full object-cover" />
